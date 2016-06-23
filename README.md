@@ -7,7 +7,7 @@
 
 --
 
-<a href="https://studio.code.org/hoc/1" target="_blank">Hora de código: Laberinto clásico</a>
+<a href="https://studio.code.org/hoc" target="_blank">Hora de código: Laberinto clásico</a>
 
 
 --
