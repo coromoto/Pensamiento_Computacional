@@ -5,6 +5,10 @@
 
 <a href="http://goo.gl/forms/4jWCO1UA0SgENsXC3" target="_blank">Cuestionario para antes de empezar</a>
 
+--
+
+<a href="https://studio.code.org/hoc/1" target="_blank">Hora de código: Laberinto clásico</a>
+
 
 --
 
