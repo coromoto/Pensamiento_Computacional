@@ -1,0 +1,318 @@
+﻿<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Pensamiento Computacional</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+    
+    <style type="text/css">
+.tg-table-light { border-collapse: collapse; border-spacing: 0; }
+.tg-table-light td, .tg-table-light th { background-color: #fff; border: 1px #bbb solid; color: #333; font-family: sans-serif; font-size: 100%; padding: 10px; vertical-align: top; }
+.tg-table-light .tg-even td  { background-color: #eee; }
+.tg-table-light th  { background-color: #ddd; color: #333; font-size: 110%; font-weight: bold; }
+.tg-table-light tr:hover td, .tg-table-light tr.even:hover td  { color: #222; background-color: #FCFBE3; }
+.tg-bf { font-weight: bold; } .tg-it { font-style: italic; }
+.tg-left { text-align: left; } .tg-right { text-align: right; } .tg-center { text-align: center; }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+        <!---
+          <div id="menu" style="width:50%;text-align:left;float:left;">
+              <img src="images/etsii_tra.png" height="100" /> 
+          </div>
+          
+          <div id="menu" style="width:50%;text-align:right;float:left;">
+            <img src="images/ULL.png" height="100" />
+          </div>
+        --->
+          <h1>
+          <img style="float:right;" src="images/ULL.png" height="100"  />
+          </h1>
+          <br></br>
+          <h3>Grupo de Innovación Educativa en</h3>
+          <h3>Herramientas, Algoritmos y Lenguajes Informáticos</h3>
+          <br></br>
+          <h2>Taller de</h2>
+          <h2>Pensamiento Computacional</h2>
+          <br>
+          <h4>Universidad para mayores</h4>
+          <h4>23 de junio de 2016</h4>
+          <h4>Universidad de La Laguna</h4>
+          <br>
+        </section>
+
+        <section>
+          <h3> Blade runner - 1982 </h3>
+          <h4> Transcurre en el año 2019 </h4>
+          <img src="images/poster.jpg" height="500" />
+        </section>
+
+        <section>
+          <h3> Sueñan los androides con ovejas eléctricas  </h3>
+          <img src="images/libro1.jpg" height="500" />
+          <img src="images/libro2.jpg" height="500" />
+        </section>
+
+        <section>
+          <h3>Juego de Turing</h3>
+          <video data-autoplay src="video/Blade_Runner.mp4"></video>
+        </section>
+        
+        <section>
+          <h2>Contenido</h2>
+          <ol>
+            <li>Definiciones:</li>
+            <div class="fragment">
+              <ul>
+                <li>¿Qué es la Informática?</li>
+                <li>¿Qué es la Computación?</li>
+                <li>¿Qué es la Programación?</li>
+                <li>¿Qué es el Pensamiento Computacional?</li>
+              </ul>
+            </div>
+
+            <br></br>
+
+            <li>Iniciativas en la educación no formal</li>
+            <div class="fragment">
+              <ul>
+                <li>CODE.org</li>
+                <li>www.cs-first.com  -- Google </li>
+                <li>www.madewithcode.com -- Google </li>
+                <li>www.codeclubworld.org </li>
+                <li>es.khanacademy.org </li>
+                <li>coderdojo.com </li>
+              </ul>
+            </div>
+          </ol>
+        </section>
+        
+        
+        <section>
+          Entre las <b>Tecnologías de la Información y Comunicación (TIC)</b> y 
+          las <b>Ciencias de la Computación</b> existe una confusión de términos y definiciones,
+          además de generalizarse bajo el término <b>Informática</b> junto a otras actividades. 
+        </section>
+
+        <section>
+          Según el diccionario de la Real Academia Española, 
+          el término <b>Informática</b> se define como:
+          <br></br>
+
+          "<i>Conjunto de conocimientos científicos y técnicas que hacen posible 
+          el tratamiento automático de la información por medio de computadoras</i>".
+
+        </section>
+
+        <section>
+          En este taller se define la <b>Computación</b> como
+          los estudios encaminados a:
+          <br></br>
+          “<i>conocer la forma en que los ordenadores son diseñados y 
+           a cómo generar las instrucciones precisas 
+           para que puedan ejecutar tareas y resolver problemas</i>”
+        </section>
+
+       
+        <section>
+          El estudio de la <b>Computación</b> comprende:
+          <br></br>
+          <ul>
+           <li>
+             <font color=red><b>Programación</b></font>: 
+             el proceso de desarrollar e implementar instrucciones de forma
+             que se permita a un ordenador ejecutar una tarea, resolver un problema y
+             permitir la interacción con humanos.
+           </li>
+
+           <li>
+             <font color=green><b>Pensamiento computacional</b></font>: 
+             aproximación hacia la resolución de problemas
+             mediante el uso de estrategias de descomposición, diseño de algoritmos
+             y abstracción, así como razonamiento lógico.
+           </li>
+
+           <li>
+             <font color=blue><b>Diseño y desarrollo de sistemas digitales.</b></font>
+           </li>
+
+           <li>
+             <b>. . .</b>
+           </li>
+          </ul>
+        </section>
+
+        <section>
+          Algunas actividades que <u>NO</u> son <b>Computación</b> :
+          <br></br>
+          <ul>
+             <li>
+               <u>Alfabetización digital</u>: 
+               la habilidad general de utilizar ordenadores 
+               (como utilizar programas de ofimática o navegar por Internet, por ejemplo).
+             </li>
+
+             <li>
+               <u>Seguridad online</u>: 
+               navegación segura en Internet, 
+               compartir información en redes sociales e identidad digital.
+             </li>
+
+             <li>
+               <u>Electrónica y robótica</u>: 
+               el diseño y la construcción de circuitos electrónicos y/o robots 
+               para resolver problemas prácticos (a pesar de que pueda implicar
+               programación en alguna fase del proceso).
+             </li>
+
+             <li>
+               <u>El uso de dispositivos y recursos TIC en educación</u>: 
+               libros digitales, tabletas, etc.
+             </li>
+        </section>
+
+        <section>
+          <h3>Iniciativas <font color=cian>globales</font>
+               para promover el estudio de la Computación</h3>
+          <br></br>
+
+          <img style="float:left;" src="images/code_logo.png" height="100"  />
+
+          <img style="float:center;" src="images/csfirst.jpg" height="100"  />
+
+          <img style="float:right;" src="images/made-with-code.png" height="100"  />
+
+          <br></br>
+          <img style="float:left;" src="images/code-club-logo.png" height="100"  />
+
+          <img style="float:center;" src="images/khan-logo-vertical-transparent.png" height="100"  />
+
+          <img style="float:right;" src="images/CoderDojo_Original_Roundel_with_Long_Form_Logotype.svg.png" height="50"  /> 
+        </section>
+
+        <section>
+          <h3>Iniciativas <font color=cian>europeas</font>
+              para promover el estudio de la Computación</h3>
+          <br></br>
+
+          <img style="float:left;" src="images/codeweekEU-logo-600.png" height="100"  />
+
+          <img style="float:right;" src="images/Logo_AYNIC_Final__ECI_white_bg-04-1030x520.png" height="100"  />
+        </section>
+
+        <section>
+          <h3>Iniciativas <font color=cian>españolas</font> 
+              para promover el estudio de la Computación</h3>
+          <br></br>
+
+          <img style="float:left;" src="images/GENIOS-03.jpg" height="100"  />
+
+          <img style="float:right;" src="images/programamos-logo.png" height="100"  />
+        </section>
+
+        <section>
+          <h3>En este taller vamos a trabajar con la iniciativa de: </h3>
+           <br></br>
+          <img src="images/code_logo.png" height="200" />
+        </section>
+        
+        
+        <section>
+          <h3>¿Para que nos sirve el pensamiento computacional?</h3>
+          <br></br>
+
+          <ul>
+            <li>Crear cosas útiles</li>
+            <li>Ayudar a la gente</li>
+            <li>...</li>
+          </ul>
+        </section>
+        
+        <section>
+          <h2>Ejercicios del Taller: </h2>
+          <ul>
+            <li>Rellenar un test inicial</li> 
+            <li>Hacer una hora de código</li>
+            <li>Rellenar el mismo test al final</li> 
+          </ul>
+          <br></br>
+          
+        </section>
+        
+        <section>
+          <h2>Gracias</h2>
+          <h2>¿Preguntas?</h2>
+          <img src="images/pregunta.png" height="520" />
+        </section>
+
+
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Parallax scrolling
+        // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+        // parallaxBackgroundSize: '2100px 900px',
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
